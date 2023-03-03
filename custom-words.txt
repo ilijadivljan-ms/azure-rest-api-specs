@@ -731,6 +731,7 @@ eventroutes
 eventstream
 eventtime
 eventtypes
+evpn
 EWDG
 exceptiontype
 exfiltrate
@@ -892,6 +893,7 @@ Groupby
 groupedby
 GRPC
 GSMT
+gshut
 GTFS
 guestconfiguration
 GUID
@@ -988,6 +990,7 @@ Informations
 Informix
 Ingestor
 ingressed
+ingressgateway
 INITIALIAZING
 inittime
 inlinecount
@@ -1041,6 +1044,7 @@ isIdentityCertExprired
 isnullable
 isordered
 issqlcompression
+istio
 istransitioning
 isusernameavailable
 ISVs
@@ -1060,6 +1064,7 @@ jobschedules
 johnc
 JOHNDEERE
 johnsmith
+JSON
 jsonl
 JSONLD
 Jtoken
@@ -1184,6 +1189,8 @@ Lockdown
 managedidentity
 managedvirtualnetworks
 managedprivateendpoints
+Trigger
+dBsToTiggerCutoverOn
 loganalytics
 loggerid
 logio
@@ -2149,6 +2156,7 @@ Taxii
 tcbbaselines
 Tcpkeepalive
 TCPIP
+teamsinterop
 tempdb
 templated
 templatelink
