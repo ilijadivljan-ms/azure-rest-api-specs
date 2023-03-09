@@ -883,26 +883,22 @@
       "description": "The properties of a managed instance.",
       "type": "object",
       "properties": {
+        "properties": {
         "provisioningState": {
+          "description": "Provisioning state of managed instance.",
           "enum": [
-            "Creating",
-            "Deleting",
-            "Updating",
-            "Unknown",
+            "Created",
+            "InProgress",
             "Succeeded",
             "Failed",
-            "Accepted",
-            "Created",
-            "Deleted",
-            "Unrecognized",
-            "Running",
-            "Canceled",
-            "NotSpecified",
-            "Registering",
-            "TimedOut"
+            "Canceled"
           ],
           "type": "string",
-          "readOnly": true
+          "readOnly": true,
+          "x-ms-enum": {
+            "name": "ProvisioningState",
+            "modelAsString": true
+          }
         },
         "managedInstanceCreateMode": {
           "description": "Specifies the mode of database creation.\r\n\r\nDefault: Regular instance creation.\r\n\r\nRestore: Creates an instance by restoring a set of backups to specific point in time. RestorePointInTime and SourceManagedInstanceId must be specified.",
